@@ -1,5 +1,5 @@
-{% comment %} {% extends 'base.html' %} {% block content %}
-<div>
+{% extends 'base.html' %} {% block content %}
+<div class="mx-md-5">
   <div class="row row-cols-1 row-cols-md-3 g-4">
     {% for i in meals %}
     <div class="col">
@@ -18,9 +18,7 @@
     {% endfor %}
   </div>
 </div>
-{% endblock %} {% endcomment %}
-
-<!DOCTYPE html>
+{% endblock %} {% comment %} <!DOCTYPE html>
 <html lang="en">
   {% load static %}
   <head>
@@ -67,3 +65,4 @@
     ></script>
   </body>
 </html>
+{% endcomment %}
